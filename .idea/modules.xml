@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloudapi/cloudapi.iml" filepath="$PROJECT_DIR$/cloudapi/cloudapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudparent/cloudparent.iml" filepath="$PROJECT_DIR$/cloudparent/cloudparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cosumestu80/cosumestu80.iml" filepath="$PROJECT_DIR$/cosumestu80/cosumestu80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka7002/eureka.iml" filepath="$PROJECT_DIR$/eureka7002/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka7001/eureka7001.iml" filepath="$PROJECT_DIR$/eureka7001/eureka7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka7002/eureka7002.iml" filepath="$PROJECT_DIR$/eureka7002/eureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka7003/eureke7003.iml" filepath="$PROJECT_DIR$/eureka7003/eureke7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providerstu8001/provider-stu-8001.iml" filepath="$PROJECT_DIR$/providerstu8001/provider-stu-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providerstu8002/providerstu8002.iml" filepath="$PROJECT_DIR$/providerstu8002/providerstu8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providerstu8003/providerstu8003.iml" filepath="$PROJECT_DIR$/providerstu8003/providerstu8003.iml" />
+    </modules>
+  </component>
+</project>

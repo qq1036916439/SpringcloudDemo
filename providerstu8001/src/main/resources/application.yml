@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: providerstud
+  datasource:
+#   数据源基本配置
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crm
+    type: com.alibaba.druid.pool.DruidDataSource
+#   数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+#   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  redis:
+    port: 6379
+    host: 192.168.25.11
+    password: 123
+    pool:
+      max-active: 2
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.pojo.entity  # 所有Entity别名类所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+       #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservicecloud-dept8001
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
+info:
+  app.name: atguigu-microservicecloud
+  company.name: www.zzq.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+server:
+  port: 8001
+
+
+
+
+
