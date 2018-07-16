@@ -2,7 +2,6 @@ package com.zzq.entity;
 
 public class Student {
     private Integer stuId;
-
     private String name;
 
     private Integer sex;
