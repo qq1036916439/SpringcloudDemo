@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloudapi" />
+        <module name="config8888" />
         <module name="cosumestu80" />
         <module name="cosumestu8002" />
         <module name="eureka" />
@@ -20,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="cloudapi" target="1.8" />
       <module name="cloudparent" target="1.8" />
+      <module name="config8888" target="1.8" />
       <module name="cosumestu80" target="1.8" />
       <module name="cosumestu8002" target="1.8" />
       <module name="eureka" target="1.8" />

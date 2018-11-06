@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloudapi/cloudapi.iml" filepath="$PROJECT_DIR$/cloudapi/cloudapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudparent/cloudparent.iml" filepath="$PROJECT_DIR$/cloudparent/cloudparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config8888/config8888.iml" filepath="$PROJECT_DIR$/config8888/config8888.iml" />
       <module fileurl="file://$PROJECT_DIR$/cosumestu80/cosumestu80.iml" filepath="$PROJECT_DIR$/cosumestu80/cosumestu80.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka7002/eureka.iml" filepath="$PROJECT_DIR$/eureka7002/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka7001/eureka7001.iml" filepath="$PROJECT_DIR$/eureka7001/eureka7001.iml" />
